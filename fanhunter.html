@@ -1,25 +1,26 @@
 <div class="3colrow">
     <div class="col">
-    	<label>Name:</label><input type="text" name="attr_character_name" />
-		<label>Rank:</label><input type="text" name="attr_rank" />
-		<label>XP:</label><input type="number" name="attr_xp" />
+    	<label>Nombre:</label><input type="text" name="attr_character_nombre" />
+		<label>Arquetipo:</label><input type="text" name="attr_arquetipo" />		
+	</div>
+	
+	<div class="col">
+		<img src="https://github.com/BeiroMoshana/fanhunter/blob/master/logo.jpg" />
 	</div>
 
 	<div class="col">
-		<img src="https://raw.githubusercontent.com/Roll20/roll20-character-sheets/master/kitchensink/logo.png" />
-	</div>
-
-	<div class="col">
-		<label>Setting:</label><input type="text" name="attr_setting" />
-		<label>Race:</label><input type="text" name="attr_race" />
+		<label>Regla Especial:</label><input type="text" name="attr_esp" />
+		<label>Mierda de trasfondo:</label><input type="text" name="attr_trasfondo" />
 	</div>
 
 </div>
 
 <hr/>
-<div class="3colrow">
+<div class="4colrow">
 	<div class="col">
-		<h2>Attributes</h2>
+		<h2><label>Hostias </label><input type="text" name='attr_Hostias' class='sheet-short'>
+        <button type='roll' name='roll_testattack' value='&{template:default} {{name=@{character_name}}} {{result=[[[@{Hostias}]d6! ]]}}'></button><span class='dee'>d</span>
+        <br /></h2>
 
 		<label>Agility </label><input type="text" name='attr_agility' class='sheet-short'>
         <button type='roll' name='roll_testattack' value='&{template:default} {{name=@{character_name}}} {{result=[[1d20 + @{agility}]]}}'></button><span class='dee'>d</span>
