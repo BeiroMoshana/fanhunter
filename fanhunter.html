@@ -29,28 +29,35 @@
         <button type='roll' name='roll_testattack' value='&{template:default} {{name=@{character_name}}} {{Chequeo de Táctica=[[@{Tactica}d6!]]}}'></button><span class='dee'></span>
         <br />
 		<label>Maestria 1 </label><input type="number" name='attr_Maestria1' class='sheet-short'><input type="text" name='attr_Maestria1esp' class='sheet-short'>
-        <button type='roll' name='roll_testattack' value='&{template:default} {{name=@{character_name}}} {{Ataque de maestría con @{Maestria1esp}=[[@{Maestria1}d6!]]}}'></button><span class='dee'></span>
+        <button type='roll' name='roll_testattack' value='&{template:default} {{name=@{character_name}}} {{Maestría con @{Maestria1esp}=[[@{Maestria1}d6!]]}}'></button><span class='dee'></span>
         <br />
 		<label>Maestria 2 </label><input type="number" name='attr_Maestria2' class='sheet-short'><input type="text" name='attr_Maestria2esp' class='sheet-short'>
-        <button type='roll' name='roll_testattack' value='&{template:default} {{name=@{character_name}}} {{Ataque de maestría con @{Maestria2esp}=[[@{Maestria2}d6!]]}}'></button><span class='dee'></span>
+        <button type='roll' name='roll_testattack' value='&{template:default} {{name=@{character_name}}} {{Maestría con @{Maestria2esp}=[[@{Maestria2}d6!]]}}'></button><span class='dee'></span>
         <br />
 		<label>Maestria 3 </label><input type="number" name='attr_Maestria3' class='sheet-short'><input type="text" name='attr_Maestria3esp' class='sheet-short'>
-        <button type='roll' name='roll_testattack' value='&{template:default} {{name=@{character_name}}} {{Ataque de maestría con @{Maestria3esp}=[[@{Maestria3}d6!]]}}'></button><span class='dee'></span>
+        <button type='roll' name='roll_testattack' value='&{template:default} {{name=@{character_name}}} {{Maestría con @{Maestria3esp}=[[@{Maestria3}d6!]]}}'></button><span class='dee'></span>
        
         <hr />
         
-        <h2">Skills</h2>
+	<h2><label>Reflejos </label><input type="number" name='attr_Reflejos' class='sheet-short'>
+        <button type='roll' name='roll_testattack' value='&{template:default} {{name=@{character_name}}} {{Chequeo de Reflejos=[[@{Reflejos}d6! ]]}}'></button><span class='dee'></span>
+        <br /></h2>
+
+		<label>Cabriolas </label><input type="number" name='attr_Cabriolas' class='sheet-short'>
+        <button type='roll' name='roll_testattack' value='&{template:default} {{name=@{character_name}}} {{Chequeo de Cabriolas =[[@{Cabriolas}d6!]]}}'></button><span class='dee'></span>
+        <br />
+		<label>Manitas </label><input type="number" name='attr_Manitas' class='sheet-short'>
+        <button type='roll' name='roll_testattack' value='&{template:default} {{name=@{character_name}}} {{Chequeo de Manitas=[[@{Manitas}d6!]]}}'></button><span class='dee'></span>
+        <br />
+		<label>Vehículo 1 </label><input type="number" name='attr_Vehiculo1' class='sheet-short'><input type="text" name='attr_Vehiculo1esp' class='sheet-short'>
+        <button type='roll' name='roll_testattack' value='&{template:default} {{name=@{character_name}}} {{Conducir @{Vehiculo1esp}=[[@{Vehiculo1}d6!]]}}'></button><span class='dee'></span>
+        <br />
+		<label>Vehículo 2 </label><input type="number" name='attr_Vehiculo2' class='sheet-short'><input type="text" name='attr_Vehiculo2esp' class='sheet-short'>
+        <button type='roll' name='roll_testattack' value='&{template:default} {{name=@{character_name}}} {{Conducir @{Vehiculo2esp}=[[@{Vehiculo2}d6!]]}}'></button><span class='dee'></span>
+        <br />
+		<label>Vehículo 3 </label><input type="number" name='attr_Vehjculo3' class='sheet-short'><input type="text" name='attr_Vehiculo3esp' class='sheet-short'>
+        <button type='roll' name='roll_testattack' value='&{template:default} {{name=@{character_name}}} {{Conducir @{Vehiculo3esp}=[[@{Vehiculo3}d6!]]}}'></button><span class='dee'></span>
         
-        <fieldset class="repeating_skills">
-            <select name="attr_dtype" class="dtype">
-                <option value="d4">d4</option>
-                <option value="d6">d6</option>
-                <option value="d8">d8</option>
-                <option value="d10">d10</option>
-                <option value="d12">d12</option>
-            </select>
-            <input type="text" name="attr_skillname" />
-        </fieldset>
 
 	</div>
 
