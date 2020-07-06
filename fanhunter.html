@@ -19,23 +19,24 @@
 <div class="3colrow">
 	<div class="col">
 		<h2><label>Hostias </label><input type="number" name='attr_Hostias' class='sheet-short'>
-        <button type='roll' name='roll_testattack' value='&{template:default} {{name=@{character_name}}} {{Chequeo de Hostias=[[@{Hostias}d6! ]]}}'></button><span class='dee'>d</span>
+        <button type='roll' name='roll_testattack' value='&{template:default} {{name=@{character_name}}} {{Chequeo de Hostias=[[@{Hostias}d6! ]]}}'></button><span class='dee'></span>
         <br /></h2>
 
 		<label>Defensa </label><input type="number" name='attr_Defensa' class='sheet-short'>
-        <button type='roll' name='roll_testattack' value='&{template:default} {{name=@{character_name}}} {{Chequeo de Defensa =[[@{Defensa}d6!]]}}'></button><span class='dee'>d</span>
+        <button type='roll' name='roll_testattack' value='&{template:default} {{name=@{character_name}}} {{Chequeo de Defensa =[[@{Defensa}d6!]]}}'></button><span class='dee'></span>
         <br />
-		<label>Táctica </label><input type="text" name='attr_Tactica' class='sheet-short'>
-        <button type='roll' name='roll_testattack' value='&{template:default} {{name=@{character_name}}} {{result=[[@{Tactica}d6!]]}}'></button><span class='dee'>d</span>
+		<label>Táctica </label><input type="number" name='attr_Tactica' class='sheet-short'>
+        <button type='roll' name='roll_testattack' value='&{template:default} {{name=@{character_name}}} {{Chequeo de Táctica=[[@{Tactica}d6!]]}}'></button><span class='dee'></span>
         <br />
-		<label>Maestria </label><input type="text" name='attr_Maestria1' class='sheet-short'>
-        <button type='roll' name='roll_testattack' value='&{template:default} {{name=@{character_name}}} {{result=[[1d20 + @{spirit}]]}}'></button><span class='dee'>d</span>
+		<label>Maestria 1 </label><input type="number" name='attr_Maestria1' class='sheet-short'><input type="text" name='attr_Maestria1esp' class='sheet-short'>
+        <button type='roll' name='roll_testattack' value='&{template:default} {{name=@{character_name}}} {{Chequeo de [@{Maestria1esp}]=[[@{Maestria1}d6!]]}}'></button><span class='dee'></span>
         <br />
-		<label>Strength </label><input type="text" name='attr_strength' class='sheet-short'>
-        <button type='roll' name='roll_testattack' value='&{template:default} {{name=@{character_name}}} {{result=[[1d20 + @{strength}]]}}'></button><span class='dee'>d</span>
+		<label>Maestria 2 </label><input type="number" name='attr_Maestria2' class='sheet-short'><input type="text" name='attr_Maestria2esp' class='sheet-short'>
+        <button type='roll' name='roll_testattack' value='&{template:default} {{name=@{character_name}}} {{Chequeo de [@{Maestria2esp}]=[[@{Maestria2}d6!]]}}'></button><span class='dee'></span>
         <br />
-		<label>Vigor </label><input type="text" name='attr_vigor' class='sheet-short' value='25'>
-        <button type='roll' name='roll_testattack' value='&{template:default} {{name=@{character_name}}} {{result=[[1d20 + @{vigor}]]}}'></button><span class='dee'>d</span>
+		<label>Maestria 3 </label><input type="number" name='attr_Maestria3' class='sheet-short'><input type="text" name='attr_Maestria3esp' class='sheet-short'>
+        <button type='roll' name='roll_testattack' value='&{template:default} {{name=@{character_name}}} {{Chequeo de [@{Maestria3esp}]=[[@{Maestria3}d6!]]}}'></button><span class='dee'></span>
+       
         <hr />
         
         <h2">Skills</h2>
