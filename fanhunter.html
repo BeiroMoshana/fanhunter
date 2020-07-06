@@ -16,19 +16,19 @@
 </div>
 
 <hr/>
-<div class="4colrow">
+<div class="3colrow">
 	<div class="col">
-		<h2><label>Hostias </label><input type="text" name='attr_Hostias' class='sheet-short'>
-        <button type='roll' name='roll_testattack' value='&{template:default} {{name=@{character_name}}} {{result=[[@{Hostias}d6! ]]}}'></button><span class='dee'>d</span>
+		<h2><label>Hostias </label><input type="number" name='attr_Hostias' class='sheet-short'>
+        <button type='roll' name='roll_testattack' value='&{template:default} {{name=@{character_name}}} {{Chequeo de Hostias=[[@{Hostias}d6! ]]}}'></button><span class='dee'>d</span>
         <br /></h2>
 
-		<label>Agility </label><input type="text" name='attr_agility' class='sheet-short'>
-        <button type='roll' name='roll_testattack' value='&{template:default} {{name=@{character_name}}} {{result=[[1d20 + @{agility}]]}}'></button><span class='dee'>d</span>
+		<label>Defensa </label><input type="number" name='attr_Defensa' class='sheet-short'>
+        <button type='roll' name='roll_testattack' value='&{template:default} {{name=@{character_name}}} {{Chequeo de Defensa =[[@{Defensa}d6!]]}}'></button><span class='dee'>d</span>
         <br />
-		<label>Smarts </label><input type="text" name='attr_smarts' class='sheet-short'>
-        <button type='roll' name='roll_testattack' value='&{template:default} {{name=@{character_name}}} {{result=[[1d20 + @{smarts}]]}}'></button><span class='dee'>d</span>
+		<label>Táctica </label><input type="text" name='attr_Tactica' class='sheet-short'>
+        <button type='roll' name='roll_testattack' value='&{template:default} {{name=@{character_name}}} {{result=[[@{Tactica}d6!]]}}'></button><span class='dee'>d</span>
         <br />
-		<label>Spirit </label><input type="text" name='attr_spirit' class='sheet-short'>
+		<label>Maestria </label><input type="text" name='attr_Maestria1' class='sheet-short'>
         <button type='roll' name='roll_testattack' value='&{template:default} {{name=@{character_name}}} {{result=[[1d20 + @{spirit}]]}}'></button><span class='dee'>d</span>
         <br />
 		<label>Strength </label><input type="text" name='attr_strength' class='sheet-short'>
