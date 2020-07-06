@@ -10,7 +10,7 @@
 
 	<div class="col">
 		<label>Regla Especial:</label><input type="text" name="attr_esp" />
-		<label>Mierda de trasfondo:</label><input type="text" name="attr_trasfondo" />
+		<label>Mierdas de trasfondo:</label><input type="text" name="attr_trasfondo" />
 	</div>
 
 </div>
@@ -55,9 +55,28 @@
 		<label>Vehículo 2 </label><input type="number" name='attr_Vehiculo2' class='sheet-short'><input type="text" name='attr_Vehiculo2esp' class='sheet-short'>
         <button type='roll' name='roll_testattack' value='&{template:default} {{name=@{character_name}}} {{Conducir @{Vehiculo2esp}=[[@{Vehiculo2}d6!]]}}'></button><span class='dee'></span>
         <br />
-		<label>Vehículo 3 </label><input type="number" name='attr_Vehjculo3' class='sheet-short'><input type="text" name='attr_Vehiculo3esp' class='sheet-short'>
+		<label>Vehículo 3 </label><input type="number" name='attr_Vehiculo3' class='sheet-short'><input type="text" name='attr_Vehiculo3esp' class='sheet-short'>
         <button type='roll' name='roll_testattack' value='&{template:default} {{name=@{character_name}}} {{Conducir @{Vehiculo3esp}=[[@{Vehiculo3}d6!]]}}'></button><span class='dee'></span>
         
+	<h2><label>Agallas </label><input type="number" name='attr_Agallas' class='sheet-short'>
+        <button type='roll' name='roll_testattack' value='&{template:default} {{name=@{character_name}}} {{Chequeo de Agallas=[[@{Agallas}d6! ]]}}'></button><span class='dee'></span>
+        <br /></h2>
+
+		<label>Sigilo </label><input type="number" name='attr_Sigilo' class='sheet-short'>
+        <button type='roll' name='roll_testattack' value='&{template:default} {{name=@{character_name}}} {{Chequeo de Sigilo =[[@{Sigilo}d6!]]}}'></button><span class='dee'></span>
+        <br />
+		<label>Explosivos <input type="number" name='attr_Explosivos' class='sheet-short'>
+        <button type='roll' name='roll_testattack' value='&{template:default} {{name=@{character_name}}} {{Chequeo de Explosivos=[[@{Explosivos}d6!]]}}'></button><span class='dee'></span>
+        <br />
+		<label>Crímen 1 </label><input type="number" name='attr_Crimen1' class='sheet-short'><input type="text" name='attr_Crimen1esp' class='sheet-short'>
+        <button type='roll' name='roll_testattack' value='&{template:default} {{name=@{character_name}}} {{Sabe de @{Crimen1esp}=[[@{Crimen1}d6!]]}}'></button><span class='dee'></span>
+        <br />
+		<label>Crímen 2 </label><input type="number" name='attr_Crimen2' class='sheet-short'><input type="text" name='attr_Crimen2esp' class='sheet-short'>
+        <button type='roll' name='roll_testattack' value='&{template:default} {{name=@{character_name}}} {{Sabe de @{Crimen2esp}=[[@{Crimen2}d6!]]}}'></button><span class='dee'></span>
+        <br />
+		<label>Crímen 3 </label><input type="number" name='attr_Crimen3' class='sheet-short'><input type="text" name='attr_Crimen3esp' class='sheet-short'>
+        <button type='roll' name='roll_testattack' value='&{template:default} {{name=@{character_name}}} {{Sabe de @{Crimen3esp}=[[@{Crimen3}d6!]]}}'></button><span class='dee'></span>
+        <br />
 
 	</div>
 
